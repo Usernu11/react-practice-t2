@@ -1,0 +1,25 @@
+.HeaderWrapper {
+    /* outline: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin-bottom: 50px;
+    background-color: rgb(61, 72, 84);
+}
+
+.HeaderCart {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+
+.HeaderLogo {
+    width: 100px;
+    height: 100px;
+}
