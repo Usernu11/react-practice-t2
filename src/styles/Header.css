@@ -2,24 +2,32 @@
     /* outline: 2px solid red; */
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 30px;
     margin-bottom: 50px;
     background-color: rgb(61, 72, 84);
 }
 
 .HeaderCart {
-    width: 200px;
+    width: 600px;
     height: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    font-size: 50px;
-    color: red;
+    font-size: 30px;
+    /* color: red; */
+    /* outline: 2px solid red; */
     font-weight: bold;
+    margin-right: 50px;
 }
 
 .HeaderLogo {
     width: 100px;
     height: 100px;
+    margin-left: 50px;
+}
+
+.HeaderNav {
+    width: 300px;
+    /* outline: 2px solid red; */
 }

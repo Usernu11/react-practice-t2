@@ -23,6 +23,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  /* display: flex; */
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: space-around;
+  /* outline: 2px solid red; */
+  width: 100%;
+  height: 600px;
 }
 
 .App-link {

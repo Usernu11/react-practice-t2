@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/Header.css'
 
-function Header ({cartCount}) {
+function Header ({cartCounts}) {
     return (
         <div className="HeaderWrapper">
             <img src="/logo192.png" alt="logo" className="HeaderLogo" />
@@ -10,7 +10,8 @@ function Header ({cartCount}) {
                 <p>Lorem, ipsum dolor.</p>
             </nav>
 
-            <div className="HeaderCart">🛒{cartCount !== '' ? cartCount : ''}</div>
+            {/* <div className="HeaderCart">🛒{cartCount !== '' ? cartCount : ''}</div> */}
+            <div className="HeaderCart">E: {cartCounts.Electronium} ◾◾◾ A: {cartCounts.Atomirius} ◾◾◾ Q: {cartCounts.Quantos}</div>
         </div>
     )
 }

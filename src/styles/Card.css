@@ -34,5 +34,9 @@
 .CardImg {
     width: 150px;
     height: 150px;
-    margin-top: 80px;
+    margin-top: 30px;
+}
+
+h3, p {
+    margin: 0;
 }
